@@ -55,10 +55,10 @@
                   {this.state.cardData.map((card, index) => <Card key={index} front={card.front} />)}
                 </div>
                 <div className='buttons'>
-                  <button onclick={() =>  this.shuffleBackward()}>
+                  <button onClick={() => this.shuffleBackward()}>
                     &lt;
                   </button>
-                  <button onclick={() =>  this.shuffleForward()}>
+                  <button onClick={() => this.shuffleForward()}>
                     &gt;
                   </button>
                 </div>
