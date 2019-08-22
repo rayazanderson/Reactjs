@@ -77,7 +77,7 @@
         }
 
         componentDidUpdate(prevProps, prevState) {
-          if (preState.flipped === true) {
+          if (prevState.flipped === true) {
             this.setState({ flipped: false });
           }
         }
